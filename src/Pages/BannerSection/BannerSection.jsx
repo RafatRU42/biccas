@@ -5,7 +5,7 @@ const BannerSection = () => {
 		<div>
 			<div className=''>
 				<div className='flex'>
-					<p className='mt-20 font-bold text-[72px] mx-auto text-center'>Save more and<span className='italic'>get <br /> visibility </span> on your finances</p>
+					<p className='mt-20 font-bold text-[87px] mx-auto text-center'>Save more and<span className='italic'>get <br /> visibility </span> on your finances</p>
 				</div>
 			</div>
 			<div className='flex'>
