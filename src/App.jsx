@@ -1,12 +1,15 @@
 
 import './App.css'
-import Navbar from './Navbar/Navbar'
+import BannerSection from './Pages/BannerSection/BannerSection'
+import Navbar from './Pages/Navbar/Navbar'
 
 function App() {
 
   return (
     <>
 	<Navbar></Navbar>
+	<BannerSection></BannerSection>
+	
 
     </>
   )
