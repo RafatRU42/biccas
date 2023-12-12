@@ -11,7 +11,7 @@ import Tools from './Pages/ToolsSection/Tools'
 function App() {
 
 	return (
-		<div className='mx-44'>
+		<div className='font-display'>
 			<Navbar></Navbar>
 			<BannerSection></BannerSection>
 			<Rating></Rating>
