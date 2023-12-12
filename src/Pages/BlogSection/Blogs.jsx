@@ -1,6 +1,30 @@
 import React from 'react'
+import BlogsCard from '../../Components/BlogsCard'
 
 const Blogs = () => {
+
+	const cardsInfo= [
+		{
+			id:1,
+			title:"The worst advice we've heard about web design",
+			time:'. 8 min read',
+			image:'https://i.ibb.co/th89Hwp/div-w-dyn-list.png',
+			bg:'black'
+		},
+		{
+			id:2,
+			title:"The History of web Design",
+			time:'. 8 min read',
+			image:'https://i.ibb.co/5s2RMg4/62431cabbf37c6801e34934e-Rectangle-192-1-png.png'
+		},
+		{
+			id:3,
+			title:"10 Things nobody told about being a web Designer",
+			time:'. 8 min read',
+			image:'https://i.ibb.co/Kzr1761/62431cab7bf46b216841efce-Rectangle-194-1-png.png'
+		}
+	]
+
 	return (
 		<div>
 			<div>
@@ -26,6 +50,13 @@ const Blogs = () => {
 					</div>
 					<button className='mt-10'>Read more</button>
 				</div>
+			</section>
+
+		{/* Card Section =>>>> */}
+			<section className='grid grid-cols-3 gap-[120px] my-10'>
+				{
+					cardsInfo.map(card => <BlogsCard key={card.id} cardInfo={card}></BlogsCard>)
+				}
 			</section>
 		</div>
 	)
