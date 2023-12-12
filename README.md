@@ -1,6 +1,6 @@
-# React + Vite
+#  milestone vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To run this project locally you have to run "npm run dev"
 
 Currently, two official plugins are available:
 
