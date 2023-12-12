@@ -39,7 +39,7 @@ const Tools = () => {
 			image:'https://i.ibb.co/4SNHgWQ/6239d3613de54e544c3ceba8-Logo-10-png.png'
 		},
 		{
-			id:6,
+			id:8,
 			name:'Mailchimp',
 			image:'https://i.ibb.co/35XSTzS/6239d36dd176a8f99dd4fdf7-Logo-16-png.png'
 		},

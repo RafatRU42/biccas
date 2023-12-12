@@ -26,12 +26,12 @@ const Blogs = () => {
 	]
 
 	return (
-		<div>
+		<div className='mt-28 mx-[140px]'>
 			<div>
-				<p className='text-[56px] font-bold'>Recent<span className='text-[46px]'>bolgs</span></p>
+				<p className='text-[56px] font-bold'>Recent<span className='text-[46px] italic'>bolgs</span></p>
 			</div>
 
-			<section className='mt-10 flex justify-between'>
+			<section className='mt-10 flex justify-between '>
 				<div>
 					<img className='w-[560px]' src="https://i.ibb.co/th89Hwp/div-w-dyn-list.png" alt="" />
 				</div>
